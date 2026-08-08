@@ -29,6 +29,10 @@ int main() {
         printf("%f\n", C_h[i]);
     }
 
+    free(A_h);
+    free(B_h);
+    free(C_h);
+
     return 0;
 }
 
